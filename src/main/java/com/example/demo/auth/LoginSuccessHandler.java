@@ -25,9 +25,9 @@ public class LoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessH
        String redirectURL = request.getContextPath();
         
        if (userDetails.hasRole("admin")) {
-           redirectURL = "./index.html";
+           redirectURL = "https://applierrafiy.herokuapp.com/index.html";
        } else if (userDetails.hasRole("user")) {
-           redirectURL = "./indexuser.html";
+           redirectURL = "https://applierrafiy.herokuapp.com/indexuser.html";
        } 
        int m = (int) userDetails.getUserId(); 
        
