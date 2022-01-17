@@ -303,6 +303,7 @@ section {
 /*Page Objects*/
 .page-wrapper {
     overflow: hidden;
+    height:100%;
 }
 
 .page-container {
@@ -1171,6 +1172,7 @@ section {
 
 .card {
     margin-bottom: 30px;
+    background-color: none;
 }
 
 .input-group-addon {

@@ -101,7 +101,7 @@ $(document)
 							'td').eq(0).text();
 						var oldLing = $(this).closest('tr')
 							.clone();
-						var newLigne = '<tr style="position: relative;" class="bg-light" ><th scope="row">'
+						var newLigne = '<tr style="position: relative;" class="bg-lightxx" ><th scope="row">'
 							+ id
 							+ '</th><td colspan="4" style="height: 100%;">';
 						newLigne += '<h4 class="d-inline-flex">Voulez vous vraiment supprimer cette salle ? </h4>';

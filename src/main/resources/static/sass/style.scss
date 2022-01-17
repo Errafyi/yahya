@@ -1061,8 +1061,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		.desc{
 			padding: 10px 0 0 0;
 			background: transparent;
-			h3{
-			}
+		
 		}
 	}
 }
@@ -1071,9 +1070,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .bg-primary-color{
 	background: lighten($brand-black,96%);
 }
-.no-gutters{
 
-}
 .aside-stretch{
 	background: $brand-primary;
 	&:after{

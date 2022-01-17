@@ -149,7 +149,7 @@ body {
 /*----------------page-wrapper----------------*/
 
 .page-wrapper {
-    height: 100vh;
+    height: 100%;
 }
 
 .page-wrapper .theme {
@@ -591,3 +591,26 @@ body {
 .chiller-theme .sidebar-footer>a:last-child {
     border-right: none;
 }
+label{
+    color:white;
+    font-weight:bold;
+}
+.bg-lightx{
+color:white;
+background-color: rgba(66, 77, 124, 0.34);
+
+}
+
+.bg-lightxx{
+    color:white;
+    background-color: rgba(36, 23, 23, 0.329);
+    width:100%;
+    border-radius: 10px;
+    }
+
+    
+.bg-lightxx h4{
+    color:red;
+   
+    
+    }
