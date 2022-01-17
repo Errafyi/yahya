@@ -25,14 +25,14 @@ public class LoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessH
        String redirectURL = request.getContextPath();
         
        if (userDetails.hasRole("admin")) {
-           redirectURL = "./index.html";
+           redirectURL = "index.html";
        } else if (userDetails.hasRole("user")) {
-           redirectURL = "./indexuser.html";
+           redirectURL = "indexuser.html";
        } 
        int m = (int) userDetails.getUserId(); 
        
 
-       response.sendRedirect("./index.html");
+       response.sendRedirect(redirectURL);
         
    }
 
